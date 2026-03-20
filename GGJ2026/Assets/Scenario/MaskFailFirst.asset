@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62de9e2392cb87840a5fa4c80c92c2da, type: 3}
+  m_Name: MaskFailFirst
+  m_EditorClassIdentifier: 
+  lines:
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      normalText: "*\u521A\u60F3\u518D\u6B21\u53D1\u52A8\u9762\u5177\u80FD\u529B\uFF0C\u96F7\u8BFA\u7A81\u7136\u611F\u89C9\u5929\u65CB\u5730\u8F6C\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 8300000, guid: e48a10935188b9d4f88d0ad8c9b4ea6b, type: 3}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0
+      bgmFadeIn: 0
+      bgm: {fileID: 0}
+      bgmVolume: 0
+      bgmLoop: 0
+      background: {fileID: 0}
+      fadeBackground: 0
+      bgFadeDuration: 0
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: 0
+        targetTag: 
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: "\u96F7\u8BFA"
+      normalText: "*\u6664\u2026\u2026!\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 0
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0
+      bgmFadeIn: 0
+      bgm: {fileID: 0}
+      bgmVolume: 0
+      bgmLoop: 0
+      background: {fileID: 0}
+      fadeBackground: 0
+      bgFadeDuration: 0
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: 0
+        targetTag: 
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: "\u96F7\u8BFA"
+      normalText: "*\u770B\u6765\u73B0\u5728\u662F\u4E0D\u80FD\u6307\u671B\u9762\u5177\u4E86\uFF0C\u53EA\u6709\u9760\u81EA\u5DF1\u4E86\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 0
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0
+      bgmFadeIn: 0
+      bgm: {fileID: 0}
+      bgmVolume: 0
+      bgmLoop: 0
+      background: {fileID: 0}
+      fadeBackground: 0
+      bgFadeDuration: 0
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: 0
+        targetTag: 
+    choices:
+      isChoiceLine: 0
+      options: []

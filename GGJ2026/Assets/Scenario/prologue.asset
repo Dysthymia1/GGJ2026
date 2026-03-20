@@ -1,0 +1,1211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62de9e2392cb87840a5fa4c80c92c2da, type: 3}
+  m_Name: prologue
+  m_EditorClassIdentifier: 
+  lines:
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u6700\u4F1F\u5927\u7684\u9B54\u6CD5\uFF0C\u662F\u8BA9\u5E38\u8BC6\u5728\u4F60\u7684\u773C\u524D\u5D29\u584C\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 21300000, guid: f11f4b99e4a92e240b268e5e1d08bcd4, type: 3}
+      fadeBackground: 0
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*1828\u5E74\uFF0C\u5DF4\u9ECE\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 1
+      bgmAction: 0
+      bgmUseFade: 1
+      bgmFadeOut: 0
+      bgmFadeIn: 0.5
+      bgm: {fileID: 8300000, guid: 16c72b1b74641ef40b6e97a531eed814, type: 3}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 21300000, guid: e355e7ecaff0f7d459ce8c861cab94fb, type: 3}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 11400000, guid: 845974f889f027a4a98feaeae8568784, type: 2}
+        targetLineIndex: 7
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u8FD9\u662F\u4E00\u4E2A\u548C\u7166\u7684\u508D\u665A\uFF0C\u7565\u663E\u5026\u6020\u7684\u5915\u9633\u6D12\u4E0B\u67D4\u548C\u7684\u4F59\u6656\uFF0C\u7167\u8000\u7740\u9ECE\u585E\u7559\u8857\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u8857\u4E0A\u7684\u9762\u5305\u623F\u91CC\u7684\u53EF\u9882\u4F9D\u65E7\u5192\u7740\u70ED\u6C14\uFF0C\u508D\u665A\u7684\u9762\u5305\u623F\u81EA\u7136\u662F\u683C\u5916\u70ED\u95F9\u3002\u8D70\u51FA\u5E97\u5916\uFF0C\u53E6\u5916\u4E00\u5934\u540C\u6837\u662F\u4EBA\u5934\u6512\u52A8\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: "\u96F7\u8BFA"
+      leftCharacterId: 
+      rightCharacterId: Player_Normal
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u5F53\u7406\u6240\u5F53\u7136\u4E4B\u7269\u53D8\u5F97\u4E0D\u518D\u53EF\u4FE1\uFF0C\u4EC0\u4E48\u624D\u662F\u7EDD\u5BF9\u7684\u771F\u5B9E\uFF1F\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 1
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u96F7\u8BFA\xB7\u5FB7\xB7\u6885\u5170\u7AD9\u5728\u4EBA\u7FA4\u7684\u4E2D\u592E\uFF0C\u6BEB\u65E0\u7591\u95EE\u4ED6\u662F\u4EBA\u7FA4\u9A7B\u8DB3\u505C\u7559\u7684\u552F\u4E00\u539F\u56E0\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: "\u96F7\u8BFA"
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u51ED\u7A7A\u51FA\u73B0\u7684\u9020\u7269\uFF0C\u7A76\u7ADF\u662F\u72E1\u733E\u7684\u620F\u6CD5\uFF0C\u8FD8\u662F\u795E\u79D8\u7684\u9B54\u529B\uFF1F\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 1
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u96F7\u8BFA\u5C06\u7A7A\u65E0\u4E00\u7269\u7684\u53CC\u624B\u5411\u4F17\u4EBA\u5C55\u793A\uFF0C\u968F\u5373\u53CC\u624B\u5408\u5341\uFF0C\u8F7B\u5439\u4E00\u53E3\u6C14\u3002\u518D\u644A\u5F00\u624B\u638C\u65F6\uFF0C\u4E00\u679A\u94F6\u5E01\u8D6B\u7136\u51FA\u73B0\u5728\u53F3\u624B\u638C\u5FC3\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: "\u96F7\u8BFA"
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u5F53\u6BEB\u65E0\u751F\u6C14\u7684\u6B7B\u7269\u88AB\u8D4B\u4E88\u7075\u6027\uFF0C\u662F\u5426\u5C31\u62E5\u6709\u4E86\u6240\u8C13\u7684\u7075\u9B42\uFF1F\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 1
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u6B63\u5F53\u6240\u6709\u4EBA\u7684\u76EE\u5149\u96C6\u4E2D\u5728\u8FD9\u679A\u770B\u4E0A\u53BB\u518D\u5E73\u5E38\u4E0D\u8FC7\u7684\u94F6\u5E01\u4E4B\u4E0A\u65F6\uFF0C\u96F7\u8BFA\u7684\u5DE6\u624B\u4E0D\u77E5\u4F55\u65F6\u53C8\u591A\u51FA\u4E86\u4E00\u4E2A\u8D28\u5730\u67D4\u8F6F\u7684\u7ED2\u5E03\u888B\u3002\u4ED6\u5C06\u888B\u5B50\u4E0A\u4E0B\u7FFB\u8F6C\uFF0C\u7528\u529B\u6296\u52A8\uFF0C\u8BC1\u660E\u91CC\u9762\u7684\u786E\u7A7A\u65E0\u4E00\u7269\u3002"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: "\u96F7\u8BFA"
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u800C\u6211\uFF0C\u5C06\u8D4B\u4E88\u5176\u7075\u9B42\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 1
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u96F7\u8BFA\u5C06\u5DE6\u624B\u4ECE\u5E95\u90E8\u7F13\u7F13\u63A5\u8FD1\u5E03\u888B\uFF0C\u4F46\u59CB\u7EC8\u4E0E\u5E03\u888B\u4FDD\u6301\u4E00\u5B9A\u8DDD\u79BB\uFF0C\u5728\u4ED6\u4F4E\u58F0\u5462\u5583\u7740\u4EC0\u4E48\u5492\u8BED\u4E4B\u95F4\uFF0C\u5E03\u888B\u5E95\u90E8\u7ADF\u4ECE\u5E95\u90E8\u5F00\u59CB\u51F8\u8D77\uFF0C\u786C\u5E01\u8FDD\u80CC\u91CD\u529B\uFF0C\u7F13\u7F13\u5730\uFF0C\u5E73\u7A33\u5730\u4ECE\u888B\u5E95\u5411\u888B\u53E3\u5347\u8D77\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u4EBA\u7FA4\u4E2D\u987F\u65F6\u53D1\u751F\u4E00\u7247\u60CA\u547C\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 8300000, guid: 260ed34b0d8a721429317e13d0117d7d, type: 3}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u96F7\u8BFA\u52FE\u8D77\u5634\u89D2\uFF0C\u7528\u5DE6\u624B\u98DF\u6307\u5728\u5E03\u888B\u5916\u753B\u5708\uFF0C\u786C\u5E01\u5728\u888B\u4E2D\u9020\u6210\u7684\u51F8\u8D77\u4FBF\u5728\u5E03\u888B\u4E0A\u968F\u4E4B\u753B\u5708\uFF0C\u4EFF\u4F5B\u5B8C\u5168\u542C\u4ECE\u4ED6\u7684\u6307\u6325\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: "\u96F7\u8BFA"
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u7136\u800C\uFF0C\u7EB5\u4F7F\u77ED\u6682\u88AB\u8D4B\u4E88\u4E86\u4EC0\u4E48\uFF0C\u4E5F\u7EC8\u7A76\u4E0D\u5C5E\u4E8E\u81EA\u6211\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 1
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u96F7\u8BFA\u518D\u6B21\u5DE6\u624B\u644A\u5F00\uFF0C\u9694\u7740\u4E00\u5B9A\u8DDD\u79BB\u5C06\u786C\u5E01\u60AC\u5728\u5E03\u888B\u6B63\u4E2D\u95F4\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u63A5\u7740\u4ED6\u6DF1\u5438\u4E00\u53E3\u6C14\uFF0C\u7136\u540E\u7528\u5DE6\u624B\u731B\u7684\u5411\u4E0B\u4E00\u62C9\u2014\u2014\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u201C\u7830\uFF01\u201D\u4E00\u58F0\u8106\u54CD\uFF0C\u5E03\u888B\u4E2D\u65E9\u5DF2\u7A7A\u65E0\u4E00\u7269\uFF0C\u96F7\u8BFA\u7684\u5DE6\u624B\u5728\u4E0B\u62C9\u7684\u52A8\u4F5C\u4E2D\u81EA\u7136\u7684\u6536\u6210\u62F3\u72B6\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 8300000, guid: 798fc69fe225bbd41bb6e6297ee84b71, type: 3}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u5728\u89C2\u4F17\u5C4F\u606F\u51DD\u795E\u7684\u6CE8\u89C6\u4E0B\uFF0C\u96F7\u8BFA\u6162\u6162\u5F20\u5F00\u5DE6\u624B\uFF0C\u4E00\u679A\u94F6\u5E01\u9759\u9759\u5730\u8EBA\u5728\u638C\u5FC3\uFF0C\u5728\u5915\u9633\u4E0B\u95EA\u95EA\u53D1\u5149\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u4EBA\u7FA4\u7206\u53D1\u51FA\u6FC0\u70C8\u7684\u6B22\u547C\u58F0\u3002\u4E00\u65C1\u7684\u5B69\u7AE5\u66F4\u662F\u5174\u594B\u5730\u9AD8\u58F0\u547C\u558A\u201C\u6885\u6797\u5927\u5E08\u201C\u7684\u7EF0\u53F7\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 8300000, guid: 9e8fac1425a0c6c48b85c5fb26b2a474, type: 3}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u96F7\u8BFA\u626C\u8D77\u4ED6\u6807\u5FD7\u6027\u7684\u5FAE\u7B11\uFF0C\u4E00\u8FB9\u6458\u4E0B\u5E3D\u5B50\uFF0C\u4E00\u8FB9\u4F18\u96C5\u5730\u5411\u9F13\u638C\u6B22\u547C\u7684\u4EBA\u7FA4\u884C\u793C\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u4ED6\u7528\u53F3\u624B\u7406\u4E86\u7406\u4ED6\u7A0D\u663E\u51CC\u4E71\u7684\u8910\u8272\u5934\u53D1\uFF0C\u4E0D\u52A8\u58F0\u8272\u7684\u5C06\u53F3\u624B\u4F38\u5411\u5DE6\u624B\u62FF\u7740\u7684\u5E3D\u5B50\uFF0C\u63A5\u7740\u8F7B\u8F7B\u5439\u4E86\u4E00\u58F0\u53E3\u54E8\uFF0C\u7ADF\u53C8\u4ECE\u672C\u6765\u7A7A\u65E0\u4E00\u7269\u7684\u5E3D\u5B50\u91CC\u62FF\u51FA\u6765\u4E00\u6837\u4E1C\u897F\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u662F\u4E00\u4E2A\u9020\u578B\u4F18\u7F8E\u7684\u9762\u5177\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u4EBA\u7FA4\u518D\u6B21\u53D1\u51FA\u60CA\u547C\uFF0C\u7D27\u63A5\u7740\u662F\u66F4\u4E3A\u6FC0\u70C8\u7684\u638C\u58F0\u4E0E\u8D5E\u53F9\u58F0\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 8300000, guid: 9e8fac1425a0c6c48b85c5fb26b2a474, type: 3}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u201C\u6885\u6797\u5927\u5E08\uFF01\u6885\u6797\u5927\u5E08\uFF01\u201D\u96F7\u8BFA\u518D\u6B21\u626C\u8D77\u4F18\u96C5\u7684\u7B11\u5BB9\uFF0C\u5728\u4EBA\u4EEC\u7684\u6B22\u547C\u58F0\u4E2D\u8C22\u5E55\u3002\u53EA\u6709\u5B66\u5F92\u4E4C\u4E39\u76B1\u7740\u7709\uFF0C\u4ED6\u5BDF\u89C9\u5230\u4E86\u5E08\u7236\u7EA2\u5B9D\u77F3\u822C\u7480\u74A8\u7684\u773C\u775B\u4E2D\u7684\u4E00\u4E1D\u7591\u60D1\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 1
+      bgmAction: 1
+      bgmUseFade: 1
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 0}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []
+  - tag:
+      tag: 
+    content:
+      speaker: 
+      leftCharacterId: 
+      rightCharacterId: 
+      leftPoseId: 
+      rightPoseId: 
+      overrideLeftOffset: 0
+      leftOffset: {x: 0, y: 0}
+      overrideRightOffset: 0
+      rightOffset: {x: 0, y: 0}
+      normalText: "*\u5E3D\u5B50\u91CC\u672C\u6765\u653E\u7740\u7684\u5154\u5B50\u54EA\u513F\u53BB\u4E86\uFF1F\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 1
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 1
+      bgmUseFade: 1
+      bgmFadeOut: 0.5
+      bgmFadeIn: 0.5
+      bgm: {fileID: 0}
+      bgmVolume: 1
+      bgmLoop: 1
+      background: {fileID: 21300000, guid: f11f4b99e4a92e240b268e5e1d08bcd4, type: 3}
+      fadeBackground: 1
+      bgFadeDuration: 0.3
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: -1
+        targetTag: 
+        useFailBlackout: 0
+    choices:
+      isChoiceLine: 0
+      options: []

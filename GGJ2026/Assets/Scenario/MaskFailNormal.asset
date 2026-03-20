@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62de9e2392cb87840a5fa4c80c92c2da, type: 3}
+  m_Name: MaskFailNormal
+  m_EditorClassIdentifier: 
+  lines:
+  - tag:
+      tag: 
+    content:
+      speaker: "\u96F7\u8BFA"
+      normalText: "*\u73B0\u5728\u65E0\u6CD5\u4F7F\u7528\u9762\u5177\u4E86\u3002\u25BC"
+      specialText: 
+      showLeftPortrait: 0
+      showRightPortrait: 0
+    media:
+      sfx: {fileID: 0}
+      sfxVolume: 0
+      stopSfxBeforePlay: 0
+      applyBgm: 0
+      bgmAction: 0
+      bgmUseFade: 0
+      bgmFadeOut: 0
+      bgmFadeIn: 0
+      bgm: {fileID: 0}
+      bgmVolume: 0
+      bgmLoop: 0
+      background: {fileID: 0}
+      fadeBackground: 0
+      bgFadeDuration: 0
+    variables:
+      setOnLine: []
+    preconditions:
+      conditions: []
+    branch:
+      isBranchPoint: 0
+      cases: []
+      defaultTarget:
+        targetScript: {fileID: 0}
+        targetLineIndex: 0
+        targetTag: 
+    choices:
+      isChoiceLine: 0
+      options: []

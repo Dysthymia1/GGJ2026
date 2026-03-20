@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62de9e2392cb87840a5fa4c80c92c2da, type: 3}
+  m_Name: test
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: 111111
+    normalText: aaaaaa
+    specialText: bbbbbb
+    showLeftPortrait: 1
+    leftPortrait: {fileID: 0}
+    showRightPortrait: 0
+    rightPortrait: {fileID: 0}
+  - speaker: 2222222
+    normalText: cccccc
+    specialText: dddddd
+    showLeftPortrait: 0
+    leftPortrait: {fileID: 0}
+    showRightPortrait: 1
+    rightPortrait: {fileID: 0}
